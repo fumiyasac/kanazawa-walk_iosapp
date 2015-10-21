@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEB7A6911BD8084D00EC13CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7A6901BD8084D00EC13CE /* AppDelegate.swift */; };
+		DEB7A6931BD8084D00EC13CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7A6921BD8084D00EC13CE /* ViewController.swift */; };
+		DEB7A6961BD8084D00EC13CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB7A6941BD8084D00EC13CE /* Main.storyboard */; };
+		DEB7A6981BD8084D00EC13CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEB7A6971BD8084D00EC13CE /* Assets.xcassets */; };
+		DEB7A69B1BD8084D00EC13CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEB7A6991BD8084D00EC13CE /* LaunchScreen.storyboard */; };
+		DEB7A6A61BD8084E00EC13CE /* kanazawa_walkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7A6A51BD8084E00EC13CE /* kanazawa_walkTests.swift */; };
+		DEB7A6B11BD8084E00EC13CE /* kanazawa_walkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7A6B01BD8084E00EC13CE /* kanazawa_walkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEB7A6A21BD8084E00EC13CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEB7A6851BD8084D00EC13CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEB7A68C1BD8084D00EC13CE;
+			remoteInfo = "kanazawa-walk";
+		};
+		DEB7A6AD1BD8084E00EC13CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEB7A6851BD8084D00EC13CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEB7A68C1BD8084D00EC13CE;
+			remoteInfo = "kanazawa-walk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEB7A68D1BD8084D00EC13CE /* kanazawa-walk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kanazawa-walk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB7A6901BD8084D00EC13CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEB7A6921BD8084D00EC13CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DEB7A6951BD8084D00EC13CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEB7A6971BD8084D00EC13CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEB7A69A1BD8084D00EC13CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEB7A69C1BD8084D00EC13CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB7A6A11BD8084E00EC13CE /* kanazawa-walkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kanazawa-walkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB7A6A51BD8084E00EC13CE /* kanazawa_walkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kanazawa_walkTests.swift; sourceTree = "<group>"; };
+		DEB7A6A71BD8084E00EC13CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEB7A6AC1BD8084E00EC13CE /* kanazawa-walkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kanazawa-walkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEB7A6B01BD8084E00EC13CE /* kanazawa_walkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kanazawa_walkUITests.swift; sourceTree = "<group>"; };
+		DEB7A6B21BD8084E00EC13CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEB7A68A1BD8084D00EC13CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB7A69E1BD8084E00EC13CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB7A6A91BD8084E00EC13CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEB7A6841BD8084D00EC13CE = {
+			isa = PBXGroup;
+			children = (
+				DEB7A68F1BD8084D00EC13CE /* kanazawa-walk */,
+				DEB7A6A41BD8084E00EC13CE /* kanazawa-walkTests */,
+				DEB7A6AF1BD8084E00EC13CE /* kanazawa-walkUITests */,
+				DEB7A68E1BD8084D00EC13CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEB7A68E1BD8084D00EC13CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEB7A68D1BD8084D00EC13CE /* kanazawa-walk.app */,
+				DEB7A6A11BD8084E00EC13CE /* kanazawa-walkTests.xctest */,
+				DEB7A6AC1BD8084E00EC13CE /* kanazawa-walkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEB7A68F1BD8084D00EC13CE /* kanazawa-walk */ = {
+			isa = PBXGroup;
+			children = (
+				DEB7A6901BD8084D00EC13CE /* AppDelegate.swift */,
+				DEB7A6921BD8084D00EC13CE /* ViewController.swift */,
+				DEB7A6941BD8084D00EC13CE /* Main.storyboard */,
+				DEB7A6971BD8084D00EC13CE /* Assets.xcassets */,
+				DEB7A6991BD8084D00EC13CE /* LaunchScreen.storyboard */,
+				DEB7A69C1BD8084D00EC13CE /* Info.plist */,
+			);
+			path = "kanazawa-walk";
+			sourceTree = "<group>";
+		};
+		DEB7A6A41BD8084E00EC13CE /* kanazawa-walkTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEB7A6A51BD8084E00EC13CE /* kanazawa_walkTests.swift */,
+				DEB7A6A71BD8084E00EC13CE /* Info.plist */,
+			);
+			path = "kanazawa-walkTests";
+			sourceTree = "<group>";
+		};
+		DEB7A6AF1BD8084E00EC13CE /* kanazawa-walkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEB7A6B01BD8084E00EC13CE /* kanazawa_walkUITests.swift */,
+				DEB7A6B21BD8084E00EC13CE /* Info.plist */,
+			);
+			path = "kanazawa-walkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEB7A68C1BD8084D00EC13CE /* kanazawa-walk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB7A6B51BD8084E00EC13CE /* Build configuration list for PBXNativeTarget "kanazawa-walk" */;
+			buildPhases = (
+				DEB7A6891BD8084D00EC13CE /* Sources */,
+				DEB7A68A1BD8084D00EC13CE /* Frameworks */,
+				DEB7A68B1BD8084D00EC13CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kanazawa-walk";
+			productName = "kanazawa-walk";
+			productReference = DEB7A68D1BD8084D00EC13CE /* kanazawa-walk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEB7A6A01BD8084E00EC13CE /* kanazawa-walkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB7A6B81BD8084E00EC13CE /* Build configuration list for PBXNativeTarget "kanazawa-walkTests" */;
+			buildPhases = (
+				DEB7A69D1BD8084E00EC13CE /* Sources */,
+				DEB7A69E1BD8084E00EC13CE /* Frameworks */,
+				DEB7A69F1BD8084E00EC13CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEB7A6A31BD8084E00EC13CE /* PBXTargetDependency */,
+			);
+			name = "kanazawa-walkTests";
+			productName = "kanazawa-walkTests";
+			productReference = DEB7A6A11BD8084E00EC13CE /* kanazawa-walkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEB7A6AB1BD8084E00EC13CE /* kanazawa-walkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEB7A6BB1BD8084E00EC13CE /* Build configuration list for PBXNativeTarget "kanazawa-walkUITests" */;
+			buildPhases = (
+				DEB7A6A81BD8084E00EC13CE /* Sources */,
+				DEB7A6A91BD8084E00EC13CE /* Frameworks */,
+				DEB7A6AA1BD8084E00EC13CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEB7A6AE1BD8084E00EC13CE /* PBXTargetDependency */,
+			);
+			name = "kanazawa-walkUITests";
+			productName = "kanazawa-walkUITests";
+			productReference = DEB7A6AC1BD8084E00EC13CE /* kanazawa-walkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEB7A6851BD8084D00EC13CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = just1factory;
+				TargetAttributes = {
+					DEB7A68C1BD8084D00EC13CE = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					DEB7A6A01BD8084E00EC13CE = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DEB7A68C1BD8084D00EC13CE;
+					};
+					DEB7A6AB1BD8084E00EC13CE = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = DEB7A68C1BD8084D00EC13CE;
+					};
+				};
+			};
+			buildConfigurationList = DEB7A6881BD8084D00EC13CE /* Build configuration list for PBXProject "kanazawa-walk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEB7A6841BD8084D00EC13CE;
+			productRefGroup = DEB7A68E1BD8084D00EC13CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEB7A68C1BD8084D00EC13CE /* kanazawa-walk */,
+				DEB7A6A01BD8084E00EC13CE /* kanazawa-walkTests */,
+				DEB7A6AB1BD8084E00EC13CE /* kanazawa-walkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEB7A68B1BD8084D00EC13CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB7A69B1BD8084D00EC13CE /* LaunchScreen.storyboard in Resources */,
+				DEB7A6981BD8084D00EC13CE /* Assets.xcassets in Resources */,
+				DEB7A6961BD8084D00EC13CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB7A69F1BD8084E00EC13CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB7A6AA1BD8084E00EC13CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEB7A6891BD8084D00EC13CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB7A6931BD8084D00EC13CE /* ViewController.swift in Sources */,
+				DEB7A6911BD8084D00EC13CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB7A69D1BD8084E00EC13CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB7A6A61BD8084E00EC13CE /* kanazawa_walkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEB7A6A81BD8084E00EC13CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEB7A6B11BD8084E00EC13CE /* kanazawa_walkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEB7A6A31BD8084E00EC13CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEB7A68C1BD8084D00EC13CE /* kanazawa-walk */;
+			targetProxy = DEB7A6A21BD8084E00EC13CE /* PBXContainerItemProxy */;
+		};
+		DEB7A6AE1BD8084E00EC13CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEB7A68C1BD8084D00EC13CE /* kanazawa-walk */;
+			targetProxy = DEB7A6AD1BD8084E00EC13CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEB7A6941BD8084D00EC13CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB7A6951BD8084D00EC13CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEB7A6991BD8084D00EC13CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEB7A69A1BD8084D00EC13CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEB7A6B31BD8084E00EC13CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEB7A6B41BD8084E00EC13CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEB7A6B61BD8084E00EC13CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "kanazawa-walk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.just1factory.kanazawa-walk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEB7A6B71BD8084E00EC13CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "kanazawa-walk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.just1factory.kanazawa-walk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEB7A6B91BD8084E00EC13CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "kanazawa-walkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.just1factory.kanazawa-walkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kanazawa-walk.app/kanazawa-walk";
+			};
+			name = Debug;
+		};
+		DEB7A6BA1BD8084E00EC13CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "kanazawa-walkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.just1factory.kanazawa-walkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kanazawa-walk.app/kanazawa-walk";
+			};
+			name = Release;
+		};
+		DEB7A6BC1BD8084E00EC13CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "kanazawa-walkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.just1factory.kanazawa-walkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "kanazawa-walk";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DEB7A6BD1BD8084E00EC13CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "kanazawa-walkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.just1factory.kanazawa-walkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "kanazawa-walk";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEB7A6881BD8084D00EC13CE /* Build configuration list for PBXProject "kanazawa-walk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB7A6B31BD8084E00EC13CE /* Debug */,
+				DEB7A6B41BD8084E00EC13CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEB7A6B51BD8084E00EC13CE /* Build configuration list for PBXNativeTarget "kanazawa-walk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB7A6B61BD8084E00EC13CE /* Debug */,
+				DEB7A6B71BD8084E00EC13CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEB7A6B81BD8084E00EC13CE /* Build configuration list for PBXNativeTarget "kanazawa-walkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB7A6B91BD8084E00EC13CE /* Debug */,
+				DEB7A6BA1BD8084E00EC13CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEB7A6BB1BD8084E00EC13CE /* Build configuration list for PBXNativeTarget "kanazawa-walkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEB7A6BC1BD8084E00EC13CE /* Debug */,
+				DEB7A6BD1BD8084E00EC13CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEB7A6851BD8084D00EC13CE /* Project object */;
+}
